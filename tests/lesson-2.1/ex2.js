@@ -1,4 +1,7 @@
-let myName = "Alex"; // Sử dụng let thay vì const => Vì cónt không thể gán lại giá trị mới
+// Sử dụng let vì có thể gán lại giá trị
+
+let myName = "Alex";
+
 myName = "Nagi";
 
-console.log(myName);
+console.log(myName); // Nagi

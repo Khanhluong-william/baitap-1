@@ -1,8 +1,9 @@
-const number = 12; //Khai bao hang so
-let name = "mynamme"; // Khai bao bien
-let isEven = false; // Khai bao bien
+// Khai báo dữ liệu
+const number = 12;
+const name = "myname";
+const isEven = false;
 
-// In ra kieu du lieu da khai bao voi typeof
-console.log(typeof number);
-console.log(typeof name);
-console.log(typeof isEven);
+// In ra kiểu dữ liệu
+console.log(typeof number);   // number
+console.log(typeof name);     // string
+console.log(typeof isEven);   // boolean
