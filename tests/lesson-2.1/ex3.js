@@ -1,3 +1,4 @@
+// Khai báo dữ liệu
 const a = true;
 const b = false;
 const c = true;
