@@ -25,8 +25,11 @@ Ví dụ: XinChao
 
 ## 4. Console log: 
 - Sử dụng với nháy đơn, nháy kép
+```js
 console.log(‘Toi la Khanh’);
 console.log(“Toi la Khanh”);
+```
 - Sử dụng kèm với variable
-let name = “Linh”;
+let name = “Khanh”;
+```js
 console.log(`Toi la ${name}`);
