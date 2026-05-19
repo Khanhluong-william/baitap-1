@@ -5,15 +5,19 @@
 - if...else
 - if...else if...else
 - Cú pháp:
+```js
 if (<điều kiện>) {
 // code...
 }
+```
 
 ## 2. Vòng lặp: for (i)
 - Cú pháp vòng lặp for (i)
+```js
 for (<điều kiện khởi tạo>; <điều kiện lặp>; <cập nhật>) {
 // code
 }
+```
 
 ## 3. Convention: Quy tắc: 
 - snake_case (Tạm thời không dùng)
