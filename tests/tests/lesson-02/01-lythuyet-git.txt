@@ -1,0 +1,11 @@
+git init
+=> Khởi tạo Git cho project.
+
+git add <file_1> <file_2>
+=> Thêm file_1 và file_2 vào vùng staging
+
+git add .
+=> Thêm tất cả file thay đổi vào vùng staging
+
+git commit -m "message"
+=> Lưu thay đổi thành 1 version mới.

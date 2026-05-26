@@ -1,0 +1,31 @@
+a. Tạo file1, file2, file3
+Local:
+- file1
+- file2
+- file3
+
+b. git init
+Working Directory:
+- file1
+- file2
+- file3
+
+c. git commit -m "init project"
+=> Lỗi vì chưa add file.
+
+d. git add file1
+Working Directory:
+- file2
+- file3
+Staging Area:
+- file1
+
+e. git commit -m "add file1"
+Repository:
+- file1
+Working Directory:
+- file2
+- file3
+
+f. git commit -m "add file"
+=> Lỗi vì không có gì để commit

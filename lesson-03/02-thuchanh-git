@@ -1,0 +1,128 @@
+THỰC HÀNH GIT
+
+Bước a: Tạo file1, file2, file3
+
+Working Directory:
+- file1
+- file2
+- file3
+
+Staging:
+- Trống
+
+Commit:
+- Chưa có
+
+
+-----------------------------------
+
+Bước b: git init
+
+Working Directory:
+- file1
+- file2
+- file3
+
+Staging:
+- Trống
+
+Commit:
+- Chưa có
+
+
+-----------------------------------
+
+Bước c: git commit -m "init project"
+
+=> Commit thất bại vì chưa add file
+
+Working Directory:
+- file1
+- file2
+- file3
+
+Staging:
+- Trống
+
+Commit:
+- Chưa có
+
+
+-----------------------------------
+
+Bước d: git add file1
+
+Working Directory:
+- file2
+- file3
+
+Staging:
+- file1
+
+Commit:
+- Chưa có
+
+
+-----------------------------------
+
+Bước e: git commit -m "add file"
+
+Working Directory:
+- file2
+- file3
+
+Staging:
+- Trống
+
+Commit:
+1. "add file"
+   - file1
+
+
+-----------------------------------
+
+Bước f: git add .
+
+Working Directory:
+- Trống
+
+Staging:
+- file2
+- file3
+
+Commit:
+1. "add file"
+   - file1
+
+
+-----------------------------------
+
+Bước g: git restore --staged file2
+
+Working Directory:
+- file2
+
+Staging:
+- file3
+
+Commit:
+1. "add file"
+   - file1
+
+
+-----------------------------------
+
+Bước h: git commit -m "add all files"
+
+Working Directory:
+- file2
+
+Staging:
+- Trống
+
+Commit:
+1. "add file"
+   - file1
+
+2. "add all files"
+   - file3

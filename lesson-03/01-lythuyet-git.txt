@@ -1,0 +1,24 @@
+Giải thích các câu lệnh Git
+
+1. git commit --amend
+- Dùng để chỉnh sửa commit gần nhất.
+- Có thể sửa commit message hoặc thêm file mới vào commit vừa tạo.
+- Commit cũ sẽ bị thay thế bằng commit mới.
+
+--------------------------------------------------
+
+2. git commit --amend -m "<message>"
+- Dùng để sửa nhanh commit message của commit gần nhất.
+- Không cần mở trình chỉnh sửa.
+
+--------------------------------------------------
+
+3. git restore --staged <file>
+- Dùng để bỏ file khỏi vùng staging.
+- File vẫn giữ nguyên thay đổi trong thư mục làm việc.
+
+--------------------------------------------------
+
+4. git reset HEAD~1
+- Dùng để quay lại commit trước đó 1 commit.
+- HEAD~1 nghĩa là commit ngay trước commit hiện tại.

@@ -1,0 +1,74 @@
+Bước a: git init
+
+Working Directory:
+- Trống
+
+Staging:
+- Trống
+
+Commit:
+- Chưa có
+
+-----------------------------------
+
+Bước b: Tạo file file1.txt, file2.txt, oops/file3.txt
+
+Working Directory:
+- file1.txt
+- file2.txt
+- oops/file3.txt
+
+Staging:
+- Trống
+
+Commit:
+- Chưa có
+
+-----------------------------------
+
+Bước c: Tạo file .gitignore
+
+Nội dung .gitignore:
+- file1.txt
+- oops/
+
+Working Directory:
+- .gitignore
+- file1.txt
+- file2.txt
+- oops/file3.txt
+
+Lưu ý:
+- file1.txt sẽ bị Git bỏ qua
+- thư mục oops/ và file3.txt sẽ bị Git bỏ qua
+
+-----------------------------------
+
+Bước d: git add .
+
+Working Directory:
+- file1.txt
+- oops/file3.txt
+
+Staging:
+- .gitignore
+- file2.txt
+
+Commit:
+- Chưa có
+
+-----------------------------------
+
+Bước e: git commit -m "init project"
+
+Working Directory:
+- file1.txt
+- oops/file3.txt
+
+Staging:
+- Trống
+
+Commit:
+1. "init project"
+   - .gitignore
+   - file2.txt
