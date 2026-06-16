@@ -24,12 +24,12 @@
 
 ### XPath thường dùng
 
-- `parent::` → Chọn phần tử cha.
-- `child::` → Chọn phần tử con.
-- `ancestor::` → Chọn tổ tiên.
-- `descendant::` → Chọn hậu duệ.
-- `following-sibling::` → Chọn anh em phía sau.
-- `preceding-sibling::` → Chọn anh em phía trước.
+- `parent::` => Chọn phần tử cha.
+- `child::` => Chọn phần tử con.
+- `ancestor::` => Chọn tổ tiên.
+- `descendant::` => Chọn hậu duệ.
+- `following-sibling::` => Chọn anh em phía sau.
+- `preceding-sibling::` => Chọn anh em phía trước.
 
 ### Tổng kết
 
